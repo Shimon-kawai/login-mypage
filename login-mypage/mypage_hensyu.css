@@ -1,0 +1,119 @@
+body{
+    margin:0 auto;
+    background-color:#f8f8f8;
+}
+
+header{width:100%;
+    height:80px;
+    background-color:white;
+    box-shadow:2px 2px 4px lightgray;
+    text-align:center;    
+}
+
+header img{
+    margin-top:15px;
+    height:50px;
+    padding-left:40px;
+}
+
+.logout{
+    float:right;
+    margin-top:50px;
+    margin-right:20px;
+    font-size:14px;
+}
+
+main{
+    clear:left;
+    width:100%;
+}
+
+.box{
+    margin:0 auto;
+    border:lightgray solid 2px;
+    width:600px;
+    background-color:white;
+    border-radius: 10px;
+    margin-top:40px;
+    margin-bottom:40px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.hello{
+    margin-left: 20px;
+}
+
+.profile_pic{
+    display: inline-block;
+    border:solid 2px lightgray;
+    text-align: left;
+    margin-top:-10px;
+    margin-left:45px;
+    float:left;
+}
+
+.profile_pic img{
+    width:100px;
+    padding:5px;
+}
+
+.basic_info{
+    margin-top:30px;
+    margin-left:200px;
+}
+
+.form_contents{
+    margin-top:30px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+
+.comments{
+    margin-top:10px;
+    margin-left:25px;
+    margin-right:25px;
+    padding:10px;
+    border-top:solid 1px lightgray;
+}
+
+
+h2{
+    margin:10px;
+    text-align:center;
+    border-bottom:solid 1px #31A263;
+    font-size:20px;
+}
+
+.formbox{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:#999;
+    background:#fff;
+}
+
+.hensyubutton{
+    text-align:center;
+}
+
+.submit_button{
+    border:1px solid lightgray;
+    padding:6px 30px 4px 30px;
+    color:white;
+    background-color:#31A263;
+    border-radius:5px;
+    border-bottom:solid 2px gray;
+    width:200px;
+    margin-bottom:20px;
+}
+
+footer{
+    width:100%;
+    height:40px;
+    background-color:white;
+    color:gray;
+    text-align:center;
+    line-height:40px;
+    font-size:13px;
+    border-top:lightgray solid 2px;
+}
